@@ -1,0 +1,13 @@
+flutter_native_splash:
+  color: "#E3E3E3" # splash screen 배경색
+  image: "assets/images/splash_screen_logo.png"
+  android: true
+  ios: true
+  android_12: # Android 12 이상 지원 시
+    color: "#E3E3E3"
+    image: "assets/images/splash_screen_logo.png"
+
+  # 화면 중하단에 나오는 브랜드 로고
+  #branding: assets/dart.png
+  #branding_mode: bottom
+
