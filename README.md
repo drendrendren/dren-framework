@@ -17,11 +17,14 @@ Flutter로 앱 개발 시 반복되는
 
 ## 변경해야 할 것
 - **앱 이름**
+
 **Android**: drenfw/android/app/src/main/AndroidManifest.xml 에서
 <application android:label="앱 이름"> 변경
+
 **ios**: drenfw/ios/Runner/Info.plist
 <key>CFBundleDisplayName</key>
 <string>앱 이름</string> 변경
+
 
 
 - **앱 로고**
@@ -31,10 +34,12 @@ Flutter로 앱 개발 시 반복되는
 이미지에 alpha 적용 해제하기(App Store에서 alpha 켜져 있는 이미지일 시 반려됨)
 
 
+
 - **appbar 앱 로고**
 1. drenfw/assets/images/appbar_logo.png 변경
 
-- 
+
+
 - **splash screen 로고**
 1. drenfw/assets/images/splash_screen_logo.png 변경
 2. terminal에서 "flutter pub run flutter_native_splash:create" 입력
