@@ -1,5 +1,5 @@
 import 'package:go_router/go_router.dart';
-import 'package:drenfw/screens/home_screen.dart';
+import 'package:taiwan_currency_converter/screens/home_screen.dart';
 
 final GoRouter router = GoRouter(
   initialLocation: '/home',

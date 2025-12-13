@@ -1,6 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
     <application
-        android:label="Dren FW"
+        android:label="대만 환율 계산기"
         android:name="${applicationName}"
         android:icon="@mipmap/launcher_icon">
         <activity

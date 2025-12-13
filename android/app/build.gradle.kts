@@ -13,7 +13,7 @@ plugins {
 }
 
 android {
-    namespace = "com.drenfw.android"
+    namespace = "com.taiwancc.android"
     compileSdk = 35
     ndkVersion = flutter.ndkVersion
 
@@ -27,10 +27,10 @@ android {
     }
 
     defaultConfig {
-        applicationId = "com.drenfw.android"
+        applicationId = "com.taiwancc.android"
         minSdk = 21
         targetSdk = 35
-        versionCode = 1      // 숫자, 업데이트할 때마다 증가
+        versionCode = 2      // 숫자, 업데이트할 때마다 증가
         versionName = "1.0.0" // 사용자에게 보여지는 버전
     }
 
